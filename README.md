@@ -45,6 +45,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Changes by Alexander Jimenez Mejia
 
+NOTE: In order to run correctly this project you should have Node 14
+
 I have updated the structure of the folders on the src by type so each of these folders represents the type of files so they are grouped to make more sense in the project, also each of the component in side the component folder have their own scss and tsx in each folder.
 
 I have modified the tsconfig for using absolute paths.
