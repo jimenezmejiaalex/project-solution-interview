@@ -1,0 +1,29 @@
+.treeNode{
+    // fill me in
+    // border: 1px solid red;
+    width: 100%;
+    text-align: center;
+
+}
+
+.treeNode {
+    .id-text {
+        font-weight: bold;
+        padding: 4px;
+        border-radius: 50%;
+        background-color: #af6b6b;
+        font-weight: bold;
+        color: #fff;
+
+        &--smallest {
+            background-color: #6BAF90;
+        }
+    }
+    .nodeId{
+        height: 40px;
+    }
+}
+.treeNode > .nodeChildren{
+    //fill me in
+    display: flex;
+}

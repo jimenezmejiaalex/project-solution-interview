@@ -1,0 +1,20 @@
+.file-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+    input[type="file"] {
+        z-index: -1;
+        top: 10px;
+        left: 25px;
+        font-size: 17px;
+        color: #b8b8b8;
+    }
+
+    &__button-wrap,
+    &__fetch {
+        margin: 5px 0;
+    }
+}
